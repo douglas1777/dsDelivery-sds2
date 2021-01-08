@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Footer from "./Footer/indext";
 import Home from "./Home";
 import Navbar from "./Navbar";
 import Orders from "./Orders";
@@ -15,7 +16,8 @@ function Routes(){
             <Route path="/">
                 <Home />
             </Route>
-        </Switch>        
+        </Switch>  
+        <Footer/>      
         </BrowserRouter>
     )
 }

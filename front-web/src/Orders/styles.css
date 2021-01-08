@@ -1,5 +1,6 @@
 .orders-container {
     background-color: var(--light-color);
+    margin-bottom: 60px;
   }
   
   .orders-container h3 {

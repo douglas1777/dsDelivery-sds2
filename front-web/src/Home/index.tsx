@@ -1,7 +1,6 @@
 import './styles.css';
 import { ReactComponent as MainImage } from './main.svg';
 import React from 'react';
-import Footer from '../Footer/indext';
 import { Link } from 'react-router-dom';
 
 
@@ -27,8 +26,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <Footer/>
-        </>
+          </>
     )
 }
 export default Home;

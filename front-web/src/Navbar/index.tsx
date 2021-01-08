@@ -5,8 +5,13 @@ import { Link } from 'react-router-dom';
 function Navbar(){    
     return (
         <nav className="main-navbar">
+            
+            <Link to ="/" className="logo-area"> 
             <Logo/>
-            <Link to ="/" className="logo-text"> DS Delivery </Link>
+            <span className="logo-text">
+            DS Delivery 
+            </span>
+            </Link>
         </nav>
     )    
 }

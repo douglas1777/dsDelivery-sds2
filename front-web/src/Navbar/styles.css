@@ -14,3 +14,8 @@
     color: #FFFFFF;
     margin-left: 15px;
 }
+.logo-area{
+    display:flex;   
+    align-items: center; 
+    
+}
