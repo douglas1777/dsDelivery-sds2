@@ -1,4 +1,3 @@
-import { totalmem } from "os";
 import { formatPrice } from "./helpers";
 
 type Props ={
